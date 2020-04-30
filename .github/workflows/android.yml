@@ -43,6 +43,6 @@ jobs:
           mv app/build/outputs/apk/debug/app-debug.apk app-debug.apk
           git add .
           git commit -m 'Updated APK file'
-          git push
+          git push origin apk
           git checkout master
 
