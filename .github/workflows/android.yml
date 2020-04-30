@@ -33,16 +33,16 @@ jobs:
           name: apk
           path: app/build/outputs/apk/debug/app-debug.apk
 
-    - name: Push to APK branch
-      run: |
+      - name: Push to APK branch
+        run: |
 
-        git config user.email "oscar.fridh.mkk@gmail.com"
-        git config user.name "Oscar Fridh"
-        git checkout apk
+          git config user.email "oscar.fridh.mkk@gmail.com"
+          git config user.name "Oscar Fridh"
+          git checkout apk
 
-        mv app/build/outputs/apk/debug/app-debug.apk app-debug.apk
-        git add .
-        git commit -m 'Updated APK file'
-        git push
-        git checkout master
+          mv app/build/outputs/apk/debug/app-debug.apk app-debug.apk
+          git add .
+          git commit -m 'Updated APK file'
+          git push
+          git checkout master
 
