@@ -26,3 +26,5 @@ jobs:
         echo "Woops" > tmp.txt
         git add .
         git push
+        git status
+
