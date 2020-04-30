@@ -24,4 +24,5 @@ jobs:
         echo "Hej"
         echo "Hops"
         echo "Woops" > tmp.txt
+        git add .
         git push
