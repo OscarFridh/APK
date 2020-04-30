@@ -25,8 +25,8 @@ jobs:
         echo "Hops"
         echo "Woops" > tmp.txt
 
-        git config user.email "you@example.com"
-        git config user.name "Your name"
+        git config user.email "oscar.fridh.mkk@gmail.com"
+        git config user.name "Oscar Fridh"
 
         git add .
         git commit -m 'Updated apk'
