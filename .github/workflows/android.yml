@@ -23,5 +23,6 @@ jobs:
       run: |
         echo "Hej"
         echo "Hops"
+        echo "Woops" > tmp.txt
         git status
         git log
