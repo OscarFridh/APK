@@ -24,6 +24,10 @@ jobs:
         echo "Hej"
         echo "Hops"
         echo "Woops" > tmp.txt
+
+        git config user.email "you@example.com"
+        git config user.name "Your name"
+
         git add .
         git commit -m 'Updated apk'
         git status
